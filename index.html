@@ -3,19 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Kamonwan'p example page</title>
+    <title>Kamonwan'p problem1 page</title>
     <link href="/styles/style.css" rel="stylesheet" type="text/css">
+    <style>
+        figcaption {text-align: center; font-size: small;}
+        p1 {color: blue; font-size: medium;}
+        li.popular {border: 4px dotted red;}
+    </style>
 </head>
 <h1>Khon Kaen University</h1>
 
 <body>
-    <img src="images/kku1.jpg" width="50%" height="50%" alt="My test image">
-    <p>Khon Kaen University has many outstanding places</p>
+   
+    <figure>
+        <img src="/images/kku1.jpg" width="50%" height="50%" alt="Computer Engineering Khon Kaen">
+        <p></p>
+        <img src="/images/timthumb.png" width="50%" height="50%" alt="Computer Engineering Khon Kaen">
+        <figcaption>Computer Engineering Khon Kaen</figcaption>
+    </figure>
+   
+    <p1>Khon Kaen University has many outstanding places</p1>
 
     <ul>
-        <li>ศาลเจ้าพ่อมอดินแดง</li>
+        <li class="popular">ศาลเจ้าพ่อมอดินแดง</li>
         <li>พิพิธภัณฑ์ธรรมชาติวิทยาศาสตร์ มข</li>
-        <li>อุโมงค์ต้นไม้</li>
+        <li class="popular">อุโมงค์ต้นไม้</li>
         <li>บึงศรีฐาน</li>
     </ul>
 
@@ -23,5 +35,6 @@
         <a target=”_blank” href="http://www.kku.ac.th">Khon Kaen University</a>
     </p>
 
+
 </body>
-</html>
+</html> 
